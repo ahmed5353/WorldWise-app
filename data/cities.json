@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "PT",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Pantoja",
+      "countryName": "Spain",
+      "emoji": "ES",
+      "date": "2024-02-03T13:42:38.584Z",
+      "notes": "",
+      "position": {
+        "lat": 40.04443758460859,
+        "lng": -3.8671875000000004
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Abgarm",
+      "countryName": "Iran (Islamic Republic of)",
+      "emoji": "IR",
+      "date": "2024-02-03T21:22:24.957Z",
+      "notes": "",
+      "position": {
+        "lat": 35.60840438885459,
+        "lng": 49.348019341503274
+      },
+      "id": 73930388
+    }
+  ]
+}
