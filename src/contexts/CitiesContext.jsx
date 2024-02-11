@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-const BASE_URL = `http://localhost:5353`;
+const BASE_URL = `https://my-json-server.typicode.com/ahmed5353/WorldWise-app/cities.json`;
 const CitiesContext = createContext();
 
 const intialState = {
