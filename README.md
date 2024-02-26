@@ -2,7 +2,7 @@
 
 ## Description
 
-Embark on a journey of discovery with WorldWise, your passport to global exploration. Crafted with React and powered by advanced features, WorldWise revolutionizes the way you travel. Dive into the world's wonders, mark your favorite destinations on an interactive map, and capture memories with personalized notes. With real-time location tracking, WorldWise transforms every trip into an unforgettable adventure.
+Embark on a journey of discovery with WorldWise. Crafted with React and powered by advanced features, WorldWise revolutionizes the way you travel. Dive into the world's wonders, mark your favorite destinations on an interactive map, and capture memories with personalized notes. With real-time location tracking, WorldWise transforms every trip into an unforgettable adventure.
 
 
 
