@@ -9,12 +9,9 @@ Embark on a journey of discovery with WorldWise, your passport to global explora
 ## Features
 
 - **Discover Destinations:** Explore diverse destinations and activities, conveniently categorized for effortless navigation.
-- **Refined Filtering:** Filter and sort trips by price, rating, duration, and availability to tailor your travel experience.
-- **Detailed Trip Insights:** Access comprehensive trip details, including itinerary, pricing, and authentic traveler reviews.
 - **Interactive Map Experience:** Immerse yourself in an interactive map experience powered by Leaflet, where you can mark favorite spots and leave personalized notes.
-- **Secure User Authentication:** Safeguard your travel plans with user authentication, ensuring personalized access and data security.
 - **Real-Time Location Tracking:** Experience the world at your fingertips with real-time location tracking via the Geolocation API.
-- **Persistent Memories:** Create and preserve trip memories effortlessly with local storage, ensuring your adventures are captured forever.
+- **Persistent Memories:** Create and preserve trip memories
 
 **Technologies Used:**
 - React
