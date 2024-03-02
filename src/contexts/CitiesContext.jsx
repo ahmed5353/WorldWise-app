@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-// const BASE_URL = `https://my-json-server.typicode.com/ahmed5353/WorldWise-app/cities.json`;
+
 const BASE_URL = `http://localhost:5353`;
 
 const CitiesContext = createContext();
@@ -42,9 +42,7 @@ function reducer(state, action) {
 }
 
 function CitiesProvider({ children }) {
-  // const [cities, setCities] = useState([]);`
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [currentCity, setCurrentCity] = useState({});
+
 
   const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
     reducer,
@@ -66,8 +64,7 @@ function CitiesProvider({ children }) {
   }, []);
 
   async function getCity(id) {
-    // console.log(currentCity.id, id);
-    //--->To not make a new request from api until i want to go to the same city
+
     if (currentCity.id === Number(id)) return;
     dispatch({ type: "loading" });
     try {
@@ -90,9 +87,9 @@ function CitiesProvider({ children }) {
         headers: { "Content-Type": "application/json" },
       });
       const data = await res.json();
-      // setCities((cities) => [...cities, data]);
+
       dispatch({ type: "city/created", payload: data });
-      // console.log(cities);
+
     } catch {
       dispatch({ type: "rejected", payload: "creating city error" });
     }
